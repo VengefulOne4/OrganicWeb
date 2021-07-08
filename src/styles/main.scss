@@ -55,12 +55,27 @@ body {
     justify-content: space-between;
     align-items: center;
     &-text {
+        padding-top: 28px;
         flex: 0 0 40%;
         &__description {
             font-size: 1.125rem;
             line-height: 1.51;
             margin-top: 60px;
             margin-bottom: 77px;
+        }
+    }
+    &-visual {
+        border: 1px solid rgba($gray, $alpha);
+        border-radius: 100%;
+        padding: 53px;
+        &__image {
+            border: 1px solid rgba($gray, $alpha);
+            border-radius: 100%;
+            padding: 21px;
+            img {
+                border-radius: 100%;
+                box-shadow: 15px 48px 42px 0px rgba($gray, $alpha);
+            }
         }
     }
 }
