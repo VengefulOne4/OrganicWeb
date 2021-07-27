@@ -1,0 +1,39 @@
+.footer {
+    padding-top: 30px;
+    border-top: 1px solid $gray;
+    .logo {
+        width: 179px;
+        height: 48px;
+    }
+}
+.box-footer {
+    display: flex;
+    justify-content: space-between;
+    &-item {
+        display: flex;
+        justify-content: space-between;
+        flex: 0 0 60%;
+    }
+    &-list {
+        list-style-type: none;
+        &__item {
+            margin-right: 10px;
+            margin-bottom: 25px;
+        }
+        &__link {
+            text-decoration: none;
+            color: $gray;
+        }
+    }
+}
+.box-footer-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-copyright {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
