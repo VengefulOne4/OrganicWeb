@@ -14,6 +14,9 @@
         display: flex;
         justify-content: space-between;
         flex: 0 0 66.4%;
+        @media (max-width: 1200px) {
+            flex: 0 0 72%;
+        }
     }
     &-list {
         font-size: 1.12rem;
@@ -29,6 +32,9 @@
         &__link {
             text-decoration: none;
             color: $gray;
+            &:hover {
+                color: $orange;
+            }
         }
     }
 }
@@ -78,5 +84,9 @@
         color: $gray;
         opacity: 0.6;
         transition: 0.2s ease;
+        &:hover {
+            text-decoration: none;
+            color: $orange;
+        }
     }
 }
